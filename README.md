@@ -5,6 +5,21 @@ This project aims to develop an investment suggestion chatbot that uses stock, f
 Project Overview
 The Investment Suggestion Chatbot leverages stock price data, financial statements, and news articles to provide investment advice. The system utilizes a pre-trained model from Hugging Face to generate recommendations based on the provided data. The user inputs a ticker symbol, and the chatbot retrieves relevant data to generate an informed suggestion.
 
+
+tickers = [
+    'AAPL', 'MSFT', 'NVDA', 'GOOGL', 'AI', 'GOOG', 'AMZN', 'META', 'TSM', 'TSLA', 
+    'PINS', 'IBM', 'PFE', 'VZ', 'PDD', 'DIS', 'NOW', 'BABA', 'BX', 'MS', 
+    'AMAT', 'CAT', 'GS', 'NEE', 'ISRG', 'HSBC', 'CMCSA', 'RTX', 'RY', 'TTE', 
+    'UL', 'SPGI', 'UNP', 'HDB', 'T', 'BHP', 'LOW', 'HON', 'LMT', 'VRTX', 
+    'SNY', 'MUFG', 'TJX', 'BLK', 'UBER', 'ARM', 'SYK', 'COP', 'PGR', 'BUD', 
+    'BKNG', 'INTC', 'ELV', 'C', 'ETN', 'REGN', 'PLD', 'SCHW', 'MU', 'UPS', 
+    'NKE', 'BSX', 'MMC', 'CB', 'BA', 'RIO', 'ADI', 'LRCX', 'ADP', 'AMT', 
+    'KKR', 'ANET', 'MDT', 'SONY', 'PANW', 'TD', 'KLAC', 'IBN', 'MMM', 'GILD', 
+    'PEP', 'ABT', 'MRK', 'WMT', 'KO', 'CMG', 'MCD', 'JNJ', 'V', 'MA', 
+    'PYPL', 'NFLX', 'ADBE', 'CRM', 'CSCO', 'ORCL', 'SAP', 'INTU', 'AMD', 'QCOM'
+]
+
+
 Installation
 To get started with the project, follow these steps:
 
