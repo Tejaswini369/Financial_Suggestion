@@ -36,7 +36,7 @@ prompt = PromptTemplate(
 llm = HuggingFaceHub(
     repo_id="mistralai/Mistral-7B-Instruct-v0.3",
     model_kwargs={"use_auth_token": "YOUR_HF_AUTH_TOKEN"},
-    huggingfacehub_api_token="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"
+    huggingfacehub_api_token="Replace with your HF key"
 )
 
 # Define LLM Chain
